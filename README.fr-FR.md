@@ -1,6 +1,6 @@
 # Algorithmes et Structures de Données en JavaScript
 
-[![Build Status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](https://travis-ci.org/trekhleb/javascript-algorithms)
+[![CI](https://github.com/trekhleb/javascript-algorithms/workflows/CI/badge.svg)](https://github.com/trekhleb/javascript-algorithms/actions?query=workflow%3ACI+branch%3Amaster)
 [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
 
 Ce dépôt contient des exemples d'implémentation en JavaScript de plusieurs
@@ -18,7 +18,14 @@ _Lisez ceci dans d'autres langues:_
 [_日本語_](README.ja-JP.md),
 [_Polski_](README.pl-PL.md),
 [_Español_](README.es-ES.md),
-[_Português_](README.pt-BR.md)
+[_Português_](README.pt-BR.md),
+[_Русский_](README.ru-RU.md),
+[_Türk_](README.tr-TR.md),
+[_Italiana_](README.it-IT.md),
+[_Bahasa Indonesia_](README.id-ID.md),
+[_Українська_](README.uk-UA.md),
+[_Arabic_](README.ar-AR.md),
+[_Deutsch_](README.de-DE.md)
 
 ## Data Structures
 
@@ -286,3 +293,5 @@ comparaisons de performance suivant différentes tailles pour les données d'ent
 | **Tri Shell**     | n&nbsp;log(n) | dépend du gap séquence | n&nbsp;(log(n))<sup>2</sup> |    1    |  Non   |                                                                                      |
 | **Tri Comptage**  |     n + r     |         n + r          |            n + r            |  n + r  |  Oui   | r - le plus grand nombre dans la liste                                               |
 | **Tri Radix**     |    n \* k     |         n \* k         |           n \* k            |  n + k  |  Non   | k - longueur du plus long index                                                      |
+
+> ℹ️ A few more [projects](https://trekhleb.dev/projects/) and [articles](https://trekhleb.dev/blog/) about JavaScript and algorithms on [trekhleb.dev](https://trekhleb.dev)
